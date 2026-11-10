@@ -10,5 +10,5 @@ Invoke-PS2EXE `
     -title "微信更新屏蔽工具" `
     -description "屏蔽PC微信WeChatUpdate自动更新" `
     -product "BlockWeChatUpdate" `
-    -version "1.0.0.0" `
+    -version "1.0.1.0" `
     -copyright "Copyright © 2026 TaceyWong@白昼寻星工作室"

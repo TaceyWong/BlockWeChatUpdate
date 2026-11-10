@@ -133,14 +133,14 @@ BlockWeChatUpdate/
 - 必须以 **管理员权限** 运行，否则无法修改 ACL
 - 仅面向本机微信 PC 客户端；不修改微信安装包本身
 - 微信升级后可能重新生成更新器，需再次屏蔽
-- 历史版本来自社区仓库 [tom-snow/wechat-windows-versions](https://github.com/tom-snow/wechat-windows-versions)，下载请自行甄别风险
+- 历史版本来自社区仓库 [cscnk52/wechat-windows-versions](https://github.com/cscnk52/wechat-windows-versions)，下载请自行甄别风险
 - 本工具按「自用便利」提供，使用后果自负
 
 ---
 
 ## 致谢
 
-- [tom-snow/wechat-windows-versions](https://github.com/tom-snow/wechat-windows-versions) — 微信 Windows 历史版本归档
+- [cscnk52/wechat-windows-versions](https://github.com/cscnk52/wechat-windows-versions) — 微信 Windows 历史版本归档
 - [MScholtes/PS2EXE](https://github.com/MScholtes/PS2EXE) — PowerShell 脚本打包
 
 ---

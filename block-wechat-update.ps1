@@ -11,8 +11,8 @@ Add-Type -AssemblyName PresentationFramework, PresentationCore, WindowsBase
 
 $ErrorActionPreference = 'Continue'
 $UsersSid = 'S-1-5-32-545'
-$HistoryRepoUrl = 'https://github.com/tom-snow/wechat-windows-versions/releases'
-$HistoryApiUrl = 'https://api.github.com/repos/tom-snow/wechat-windows-versions/releases?per_page=20'
+$HistoryRepoUrl = 'https://github.com/cscnk52/wechat-windows-versions/releases'
+$HistoryApiUrl = 'https://api.github.com/repos/cscnk52/wechat-windows-versions/releases?per_page=20'
 
 $xaml = @'
 <Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -230,9 +230,9 @@ function New-HistoryItem([string]$title, [string]$url, [string]$hint) {
 function Set-FallbackHistory {
     $lstHistory.Items.Clear()
     $fallback = @(
-        @{ Title = 'v3.9.12.57'; Url = 'https://github.com/tom-snow/wechat-windows-versions/releases/tag/v3.9.12.57'; Hint = '离线备用' },
-        @{ Title = 'v3.9.12.51'; Url = 'https://github.com/tom-snow/wechat-windows-versions/releases/tag/v3.9.12.51'; Hint = '离线备用' },
-        @{ Title = 'v3.9.11.25'; Url = 'https://github.com/tom-snow/wechat-windows-versions/releases/tag/v3.9.11.25'; Hint = '离线备用' },
+        @{ Title = 'v4.1.15.56'; Url = 'https://github.com/cscnk52/wechat-windows-versions/releases/tag/v4.1.15.56'; Hint = '离线备用' },
+        @{ Title = 'v4.1.15.50'; Url = 'https://github.com/cscnk52/wechat-windows-versions/releases/tag/v4.1.15.50'; Hint = '离线备用' },
+        @{ Title = 'v4.1.15.13'; Url = 'https://github.com/cscnk52/wechat-windows-versions/releases/tag/v4.1.15.13'; Hint = '离线备用' },
         @{ Title = '全部版本列表'; Url = $HistoryRepoUrl; Hint = 'GitHub Releases' }
     )
     foreach ($row in $fallback) {
